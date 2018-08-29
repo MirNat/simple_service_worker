@@ -1,0 +1,46 @@
+body {
+  background: #fff;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header {
+  background: url("../images/background.jpg") #b0cfe9 no-repeat center center
+    fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 6.5rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+nav {
+  background: #9db4c8;
+  padding: 0.2rem 1.7rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav a {
+  padding: 1.4rem;
+  color: #0067a5;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.3em;
+}
+
+nav .current > a {
+  color: #fff;
+}
+
+p {
+  font-size: 1.2em;
+}
